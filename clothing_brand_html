@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RamSALa Clothing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .announcement {
+            background-color: #ffcc00;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .announcement h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to RamSALa Clothing</h1>
+    </header>
+    <div class="container">
+        <div class="announcement">
+            <h3>Special Announcement:</h3>
+            <p>Check out our latest collection! Limited time offer!</p>
+        </div>
+        <h2>Categories</h2>
+        <a href="#categories" class="button">View Categories</a>
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <p>Product Name: Product 1</p>
+            <p>Price: $XX.XX</p>
+        </div>
+        <!-- More products here -->
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p>Phone: 6857795970</p>
+            <p>Email: <a href="mailto:Juniorifopo@gmail.com">Juniorifopo@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/junior_i_1256/">@junior_i_1256</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 RamSALa Clothing</p>
+    </footer>
+</body>
+</html>
